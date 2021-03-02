@@ -1,0 +1,70 @@
+.filme-principal {
+    font-size: 16px;
+    background-image: linear-gradient(var(--gradient), var(--gradient)), url('../../assets/images/capa.jpg');
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+.titulo, .descricao {
+    color: white;
+}
+
+.descricao {
+    margin-bottom: 40px;
+    padding: 7px 0;
+    max-width: 70%;
+    font-size: 18px;
+}
+
+.titulo {
+    font-size: 40px;
+}
+
+.botao-capa:last-of-type {
+    margin-left: 10px;
+}
+
+.botao-capa {
+    padding: 20px;
+    width: 200px;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.botao-capa:hover {
+    background-color: var(--vermelho);
+    transition: .4s ease all;
+    border-color: var(--preto);
+    cursor: pointer;
+}
+
+.botao-capa i {
+    margin-right: 3px;
+}
+
+@media screen and (max-width: 576px){
+    .botoes{
+        flex-direction: column;
+    }
+    .botao-capa {
+        width: 100%;
+        margin: 10px 0;
+        margin-left: 0;
+    }
+
+    .botao-capa:last-of-type {
+        margin-left: 0;
+    }
+
+    .descricao {
+        max-width: 100%;
+    }
+}
