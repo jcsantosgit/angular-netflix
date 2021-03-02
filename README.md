@@ -1,5 +1,5 @@
 # NETFLIX CLONE
-Projeto feito durante o treinamento na plataforma Digital Innovation One. O foco do projeto era treinar habilidades de uso de HTML, CSS e Flex Box e mostrar como pegar insits para nossos portifólios. Como estou trilhando o caminho do Bootcamp Avanade Angular decidi utiliza-lo para treinar a criação de componentes.
+Projeto feito durante o treinamento na plataforma Digital Innovation One. O foco do projeto era treinar habilidades de uso de HTML, CSS e Flex Box e mostrar como pegar insights para portifólios. Como estou trilhando o caminho do Bootcamp Avanade Angular Developer decidi criar o projeto em Angular treinar a criação de componentes.
 
 ## TECNOLOGIAS UTILIZADAS
 - Angular
